@@ -1,0 +1,29 @@
+# Dependencies
+/node_modules
+/backend/node_modules
+/dashboard/node_modules
+/newprjt/frontend/node_modules
+
+# Logs
+/logs/access.log
+/logs/error.log
+*.log
+
+# Docker
+.dockerignore
+
+# Build output
+/dist
+/build
+
+# IDE files
+.idea
+.vscode
+
+# Environment variables
+.env
+*.env.local
+
+# Temporary files from this session
+WAF_resume_entry.tex
+WAF_resume_entry_ATS.tex
