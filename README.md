@@ -2,7 +2,7 @@
 
 This project demonstrates a functional Web Application Firewall (WAF) protecting a deliberately vulnerable full-stack blog application. The WAF is configured using **Nginx** and **ModSecurity** with the **OWASP Core Rule Set (CRS)** to detect and block common web attacks like SQL Injection and Cross-Site Scripting (XSS).
 
-## 🚀 Key Features
+## Key Features
 
 - **Web Application Firewall:** Nginx server acting as a reverse proxy with ModSecurity and OWASP CRS to inspect and filter HTTP traffic.
 - **Vulnerable Application:** A full-stack blog application built with React and Node.js, featuring intentional SQL Injection and Stored XSS vulnerabilities for testing purposes.
@@ -10,14 +10,14 @@ This project demonstrates a functional Web Application Firewall (WAF) protecting
 - **Dynamic UI Feedback:** The frontend application provides immediate feedback to the user when a request is blocked by the WAF and clears the malicious input.
 - **Containerized Environment:** The entire stack (WAF, backend, frontend) is managed with Docker Compose for easy setup and consistent deployment.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **WAF:** Nginx, ModSecurity, OWASP Core Rule Set (CRS)
 - **Frontend:** React, Vite, Tailwind CSS
 - **Backend:** Node.js, Express.js, SQLite3
 - **Containerization:** Docker, Docker Compose
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -29,7 +29,7 @@ This project demonstrates a functional Web Application Firewall (WAF) protecting
 └── README.md           # This file
 ```
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 To get this project up and running locally, you'll need to have **Docker** and **Docker Compose** installed.
 
@@ -68,7 +68,7 @@ npm run dev
 
 The frontend will now be running on `http://localhost:5173`.
 
-## 🔬 How to Demonstrate the WAF
+## How to Demonstrate the WAF
 
 You can now test the WAF's effectiveness by attempting to perform common web attacks.
 
@@ -92,6 +92,6 @@ You can now test the WAF's effectiveness by attempting to perform common web att
 
 In both cases, you can check the logs in the `logs/` directory or view the Docker container logs (`docker-compose logs waf`) to see the ModSecurity alerts.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
