@@ -140,7 +140,7 @@ export default function VulnerableBlogApp() {
               className="text-3xl font-bold text-gray-900 cursor-pointer"
               onClick={() => setCurrentView('home')}
             >
-              Vulnerable Blog
+              Blog Application
             </h1>
             
             {/* Search */}
@@ -266,15 +266,6 @@ export default function VulnerableBlogApp() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-6 mt-12">
-        <div className="max-w-6xl mx-auto px-4">
-          <h3 className="font-bold mb-3">Intentional Vulnerabilities:</h3>
-          <ul className="space-y-2 text-sm">
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </footer>
     </div>
   );
 }
